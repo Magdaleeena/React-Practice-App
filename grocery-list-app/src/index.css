@@ -1,0 +1,74 @@
+*{
+  font-family: 'Zilla Slab', serif;
+}
+h1{
+  margin-bottom: 12px;
+  font-size:larger;
+  color: #0f5859;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2{
+  list-style-type:disc; /* Remove default bullet points */
+  list-style-position: inherit;
+  color: #0f5859;
+  text-align: center;
+}
+
+
+.input{
+  color: #0f5859;
+  text-align: center;
+}
+
+ul {
+  color: #0f5859;
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;           /* Remove default padding */
+  text-align: center;   /* Center the list items */
+}
+
+li {
+  display: flex;        /* Use flexbox for alignment */
+  justify-content: center; /* Center the bullet and text */
+  align-items: center;  /* Center vertically */
+  margin: 10px 0;      /* Optional: Add vertical spacing */
+}
+
+li::before {
+  content: '•';         /* Use a bullet character */
+  margin-right: 5px;    /* Space between bullet and text */
+  display: inline-block; /* Keep bullet inline with text */
+}
+
+
+body {
+  margin: 0;
+  background-color: #f5d8c9;
+  
+}
+
+button {
+  background: #0f5859;
+  color: white;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Zilla Slab', serif;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.clear {
+  text-align: center;
+}
+
+button:disabled {
+  background: #aaaaaa;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
